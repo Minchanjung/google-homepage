@@ -1,24 +1,31 @@
 html {
     background-color: white;
 }
-#main-logo {
-    position: absolute;
-    left: 35%;
-    top: 30%;
+img {
+    display: block;
+    width: 272px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 155px;
+    margin-bottom: 38px;
 }
 #searchbar {
-    display: flex;
     text-align: center;
+    margin: auto;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 input {
-    font: 400 13.3333px Arial;
+    font: 400 13.3333px arial;
     position: relative;
-    height: 100%;
     padding-inline-end: 44px;
     padding-inline-start: 52px;
+    padding-left: 52px;
+    padding-right: 44px; 
     margin: auto;
-    width: 50%;
+    width: 561px;
     padding: 10px;
-    
+    border-radius: 25px;
+    outline: none
 }
