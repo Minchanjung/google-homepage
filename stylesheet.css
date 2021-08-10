@@ -1,7 +1,7 @@
 html {
     background-color: white;
 }
-img {
+#google-logo {
     display: block;
     width: 272px;
     margin-left: auto;
@@ -10,11 +10,33 @@ img {
     margin-bottom: 38px;
 }
 #searchbar {
+    position: relative;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    width: 484px;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid #dfe1e5;
+    border-radius:  25px;
+}
+#search-logo {
+    color: #9aa0a6;
+    position: relative;
+    left: 16px;
+    max-width: 20px;
+    height: 20px;
+}
+.mic {
+    background: url(https://web.archive.org/web/20191130234609im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+    border: transparent;
+    margin-right:15px;
 }
 input {
     font: 400 13.3333px arial;
@@ -23,9 +45,9 @@ input {
     padding-inline-start: 52px;
     padding-left: 52px;
     padding-right: 44px; 
-    margin: auto;
     width: 561px;
     padding: 10px;
-    border-radius: 25px;
-    outline: none
+    border: transparent;
+    margin-left: 20px;
+    margin-right: 40px;
 }
